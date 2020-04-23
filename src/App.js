@@ -44,10 +44,10 @@ class App extends React.Component {
       
       const temp = data.main.temp;
       this.setState({
-        temperature: ((temp) * 1.8 + 32).toFixed(0) + "%",
+        temperature: ((temp) * 1.8 + 32).toFixed(0) + "°",
         city: data.name,
         country: data.sys.country,
-        humidity: data.main.humidity,
+        humidity: data.main.humidity + "%",
         description: data.weather[0].description,
         error: ""
       });

@@ -267,8 +267,14 @@ form {
 
 @media (max-width: 767px) {
 
+  body {
+    background-image: none;
+    background-color: black;
+    background-image: linear-gradient(315deg, #ffffff 0%, #5e878f 74%);
+  }
+
   #logo {
-    text-align: center;
+    text-align: left;
     width: 100%;
   }
 
@@ -279,9 +285,8 @@ form {
 
   .grid-container {
     text-align: center;
-    display: grid;
+    display: block;
     grid-gap: 1%;
-    grid-template-columns: auto; 
     margin-top: 7%;
     margin-left: 3%;
     margin-right: 3%;
@@ -297,21 +302,26 @@ form {
   
   .info-container { 
     margin: auto;
-    margin-top: 25%;
+    margin-top: 15%;
     text-align: center;
     max-width: 320px;
     height: auto;
-    background-color: rgba(151, 186, 250, 0.151);
+    background-color: rgba(255, 255, 255, 0.288);
     font-family: "Source Sans Pro";
     border-top-right-radius: 10px;
     width: 100%;
     transition: all 1s ease;
     border-bottom-left-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   form {
     transition: all 1s ease;
     background-color: rgba(253, 171, 108, 0.973);
+    height: 165px;
+    margin-bottom: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .weather__info {
@@ -325,9 +335,12 @@ form {
   }
 
   .weather__key {
+    width: 80%;
     transition: all 1s ease;
     text-align: left;
-    font-size: 18px;
+    font-size: 19px;
+    color: rgb(123, 125, 126);
+    border-bottom: solid 1px rgba(140, 151, 158, 0.315);
   }
 
   .get-started {
@@ -335,16 +348,18 @@ form {
     margin: auto;
     margin-top: 5%;
     padding: 20px 0px 20px 0px;
-    background-color: rgba(255, 255, 255, 0.089);
+    background-color: rgba(255, 255, 255, 0.151);
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   #explore {
     margin: auto;
     float: none;
     width: 300px;
-    height: 50px;
-    font-size: 14px;
+    height: 40px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   }
 
@@ -360,5 +375,30 @@ form {
 
   }
 
+  
+
+  .weather__value {
+    color: rgb(113, 116, 115);
+    font-weight: 600;
+    font-family: "Exo 2";
+    text-align: center;
+  
+  }
+
+  .input {
+    width: 280px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  button {
+    padding-left: 20px;
+    text-align: left;
+    font-size: 18px;
+    width: 300px;
+    height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 }
 
