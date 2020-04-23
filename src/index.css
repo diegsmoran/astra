@@ -318,6 +318,8 @@ form {
 
   form {
     transition: all 1s ease;
+    padding-bottom: 20px;
+    padding-top: 20px;
     background-color: rgba(253, 171, 108, 0.973);
     height: 165px;
     margin-bottom: 15%;
@@ -374,8 +376,6 @@ form {
     margin-bottom: 3%;
 
   }
-
-  
 
   .weather__value {
     color: rgb(113, 116, 115);
