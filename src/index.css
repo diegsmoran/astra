@@ -185,22 +185,23 @@ form {
 
 .grid-container {
   display: grid;
-  grid-gap: 1%;
-  grid-template-columns: auto auto; 
-  margin-left: auto;
-  margin-right: auto;
+  grid-gap: 5%;
+  grid-template-columns: 1fr 0.5fr; 
+  margin: auto;
   margin-top: 7%;
-  margin-left: 7%;
+}
 
+#root {
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 .get-started {
   background-color: rgba(253, 171, 108, 0.219);
   font-size: 30px;
   width: 100%;
-  text-align: center;
-  justify-content: center;
   border-bottom-left-radius: 10px;
+  margin: auto;
 }
 
 .text {
@@ -209,15 +210,15 @@ form {
   text-align: center;
   height: 460px;
   width: 100%;
+  margin: auto;
   margin-bottom: 3%;
-  margin-right: 3%;
+
 }
 
 
 .info-container { 
-  margin-left: 3%;
   max-width: 700px;
-  height: 500px;
+  height: 520px;
   background-color: #faa96bec;
   font-family: "Source Sans Pro";
   border-top-right-radius: 10px;
@@ -290,9 +291,9 @@ form {
     text-align: center;
     display: block;
     grid-gap: 1%;
+    margin: auto;
     margin-top: 7%;
-    margin-left: 3%;
-    margin-right: 3%;
+   
   }
 
   li {
