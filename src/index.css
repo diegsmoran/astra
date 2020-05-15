@@ -186,6 +186,7 @@ form {
 .grid-container {
   display: grid;
   grid-gap: 5%;
+  grid-row-gap: 20%;
   grid-template-columns: 1fr 0.5fr; 
   margin: auto;
   margin-top: 7%;
@@ -208,11 +209,9 @@ form {
   background-color: rgba(253, 171, 108, 0.205);
   font-size: 30px;
   text-align: center;
-  height: 460px;
+  height: 100%;
   width: 100%;
   margin: auto;
-  margin-bottom: 3%;
-
 }
 
 
